@@ -1,3 +1,4 @@
+src-git kucatjs https://github.com/sirpdboy/luci-theme-kucat;js
 src-git lucicdnspeedtest https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest
 src-git cdnspeedtest https://github.com/wellcoming/openwrt-cdnspeedtest
 src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall-packages
