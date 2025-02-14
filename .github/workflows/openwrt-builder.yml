@@ -91,7 +91,8 @@ jobs:
     - name: Modify configuration with SSH
       uses: mxschmitt/action-tmate@v3
       if: ${{ github.event_name == 'workflow_dispatch' && inputs.ssh_enabled }}
-      timeout-minutes: 15
+      with:
+        limit-access-to-actor: true
 
     - name: Download package
       id: package
